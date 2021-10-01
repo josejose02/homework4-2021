@@ -65,15 +65,19 @@ table tbody tr:hover {
     text-align: center;
 }
 
+
+
 td{
-    border: black;
-    border-width: 5px 0 0 0;
+    border-top: 2px solid black;
     padding: 10px;
+    vertical-align: middle !important;
 }
+
 
 .colhead{
     min-width: 125px;
     padding: 10px;
+    vertical-align: middle;
     text-align: center;
     text-transform: uppercase;
     background-color: #7e0825;
@@ -82,6 +86,7 @@ td{
 }
 
 .rowhead{
+    vertical-align: middle !important;
     border-right: 2px solid #000000;
 }
 
@@ -90,6 +95,7 @@ table{
     border: 5px solid #000000;
     margin: auto;
     border-radius: 50px;
+    text-align: center;
 }
 
 tr:nth-child(odd) {

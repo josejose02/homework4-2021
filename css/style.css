@@ -88,6 +88,7 @@ td{
 .rowhead{
     vertical-align: middle !important;
     border-right: 2px solid #000000;
+    border-top: 2px solid #000000;
 }
 
 
